@@ -13,17 +13,21 @@
 
 ### with the command line
 
-1. Open Terminal.app
-2. "cd" to directory
+* Open Terminal.app
+* "cd" to directory
+
 >     cd path/to/directory
 
-3. Initiate a git repository
+* Initiate a git repository
+
 >     git init .
 
-4. Add existing files
+* Add existing files
+
 >     git add .
 
-5. Commit all files (-a) and add a message (-m)
+* Commit all files (-a) and add a message (-m)
+
 >     git commit -a -m "commit message goes here"
 
 ## Cloning (checking out) someone else's repository
@@ -35,8 +39,9 @@
 
 ### with the command line
 
-1. "cd" to desired directory
-2. clone the repo with the clone url
+* "cd" to desired directory
+* clone the repo with the clone url
+
 >     git clone git@github.com:albatrocity/gratuitator.git
 
 ## Syncing repository branches with a remote repository
@@ -52,9 +57,11 @@ If you only want to push up your current state to the remote reop, select Reposi
 
 ### with the command line
 
-1. Make sure you have committed your current state.
-2. Get the most up to date code from the remote repo
+* Make sure you have committed your current state.
+* Get the most up to date code from the remote repo
+
 >     git pull origin master
 
-3. Push your local code to the remote repo
+* Push your local code to the remote repo
+
 >     git push origin master
